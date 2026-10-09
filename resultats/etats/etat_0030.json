@@ -1,0 +1,93 @@
+{
+  "temps_min": 30.0,
+  "nb_vehicules": 211,
+  "nb_en_attente": 1,
+  "nb_termines": 448,
+  "vitesse_moyenne": 17.380280241545048,
+  "routes": {
+    "AB": {
+      "nb_vehicules": 12,
+      "vitesse_moyenne": 25.9385294622852,
+      "densite": 6.0,
+      "occupation": 0.4
+    },
+    "AB_R": {
+      "nb_vehicules": 4,
+      "vitesse_moyenne": 33.27097918603373,
+      "densite": 2.0,
+      "occupation": 0.13333333333333333
+    },
+    "BC": {
+      "nb_vehicules": 9,
+      "vitesse_moyenne": 54.56722606479741,
+      "densite": 3.0,
+      "occupation": 0.2
+    },
+    "BC_R": {
+      "nb_vehicules": 11,
+      "vitesse_moyenne": 45.7371947811733,
+      "densite": 3.6666666666666665,
+      "occupation": 0.24444444444444444
+    },
+    "DE": {
+      "nb_vehicules": 8,
+      "vitesse_moyenne": 34.109811062828726,
+      "densite": 4.0,
+      "occupation": 0.26666666666666666
+    },
+    "DE_R": {
+      "nb_vehicules": 12,
+      "vitesse_moyenne": 26.11100605286694,
+      "densite": 6.0,
+      "occupation": 0.4
+    },
+    "EF": {
+      "nb_vehicules": 4,
+      "vitesse_moyenne": 51.36475509557111,
+      "densite": 1.3333333333333333,
+      "occupation": 0.08888888888888888
+    },
+    "EF_R": {
+      "nb_vehicules": 6,
+      "vitesse_moyenne": 56.65157015835305,
+      "densite": 2.0,
+      "occupation": 0.13333333333333333
+    },
+    "AD": {
+      "nb_vehicules": 5,
+      "vitesse_moyenne": 37.500615942770594,
+      "densite": 3.3333333333333335,
+      "occupation": 0.22222222222222224
+    },
+    "AD_R": {
+      "nb_vehicules": 8,
+      "vitesse_moyenne": 19.98228349163405,
+      "densite": 5.333333333333333,
+      "occupation": 0.3555555555555555
+    },
+    "BE": {
+      "nb_vehicules": 10,
+      "vitesse_moyenne": 5.157437192616205,
+      "densite": 6.666666666666667,
+      "occupation": 0.8333333333333334
+    },
+    "BE_R": {
+      "nb_vehicules": 3,
+      "vitesse_moyenne": 22.467237384195272,
+      "densite": 2.0,
+      "occupation": 0.25
+    },
+    "CF": {
+      "nb_vehicules": 45,
+      "vitesse_moyenne": 4.912314293694912,
+      "densite": 30.0,
+      "occupation": 1.0
+    },
+    "CF_R": {
+      "nb_vehicules": 74,
+      "vitesse_moyenne": 5.536596028202497,
+      "densite": 49.333333333333336,
+      "occupation": 1.0
+    }
+  }
+}

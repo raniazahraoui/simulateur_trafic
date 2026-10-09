@@ -1,0 +1,108 @@
+{
+  "duree_simulee_min": 60.0,
+  "vitesse_moyenne_globale": 18.62004705743485,
+  "vitesses_par_route": {
+    "AB": 10.412167132136927,
+    "AB_R": 28.09603638390164,
+    "BC": 49.91650948611418,
+    "BC_R": 47.54005083438341,
+    "DE": 30.793719827355133,
+    "DE_R": 31.65134151131333,
+    "EF": 49.26345656665985,
+    "EF_R": 46.359329419693616,
+    "AD": 34.909723413308114,
+    "AD_R": 29.385536464815694,
+    "BE": 9.877558163442192,
+    "BE_R": 22.1221084343891,
+    "CF": 7.467310690767889,
+    "CF_R": 6.466509885845811
+  },
+  "occupation_par_route": {
+    "AB": 0.6261111111111112,
+    "AB_R": 0.31,
+    "BC": 0.15925925925925927,
+    "BC_R": 0.1537037037037037,
+    "DE": 0.2644444444444444,
+    "DE_R": 0.28388888888888886,
+    "EF": 0.16666666666666666,
+    "EF_R": 0.1811111111111111,
+    "AD": 0.14444444444444443,
+    "AD_R": 0.25703703703703706,
+    "BE": 0.48194444444444445,
+    "BE_R": 0.15694444444444444,
+    "CF": 0.7540740740740741,
+    "CF_R": 0.8525925925925927
+  },
+  "zones_congestion": [
+    {
+      "route": "CF_R",
+      "nom": "Boulevard Est (retour)",
+      "occupation_moyenne": 0.8525925925925927,
+      "occupation_max": 1.0,
+      "part_temps_congestionnee": 0.8333333333333334
+    },
+    {
+      "route": "CF",
+      "nom": "Boulevard Est",
+      "occupation_moyenne": 0.7540740740740741,
+      "occupation_max": 1.0,
+      "part_temps_congestionnee": 0.7
+    },
+    {
+      "route": "AB",
+      "nom": "Avenue Nord 1",
+      "occupation_moyenne": 0.6261111111111112,
+      "occupation_max": 1.0,
+      "part_temps_congestionnee": 0.6
+    },
+    {
+      "route": "BE",
+      "nom": "Rue Centrale",
+      "occupation_moyenne": 0.48194444444444445,
+      "occupation_max": 0.9166666666666666,
+      "part_temps_congestionnee": 0.48333333333333334
+    },
+    {
+      "route": "AB_R",
+      "nom": "Avenue Nord 1 (retour)",
+      "occupation_moyenne": 0.31,
+      "occupation_max": 0.7666666666666667,
+      "part_temps_congestionnee": 0.23333333333333334
+    },
+    {
+      "route": "DE_R",
+      "nom": "Avenue Sud 1 (retour)",
+      "occupation_moyenne": 0.28388888888888886,
+      "occupation_max": 0.8333333333333334,
+      "part_temps_congestionnee": 0.11666666666666667
+    },
+    {
+      "route": "DE",
+      "nom": "Avenue Sud 1",
+      "occupation_moyenne": 0.2644444444444444,
+      "occupation_max": 0.6333333333333333,
+      "part_temps_congestionnee": 0.06666666666666667
+    },
+    {
+      "route": "AD_R",
+      "nom": "Boulevard Ouest (retour)",
+      "occupation_moyenne": 0.25703703703703706,
+      "occupation_max": 0.5333333333333333,
+      "part_temps_congestionnee": 0.03333333333333333
+    }
+  ],
+  "temps_parcours": {
+    "nb_trajets": 1031,
+    "moyen_min": 9.067895247332686,
+    "median_min": 6.0,
+    "min_min": 1.0,
+    "max_min": 29.0
+  },
+  "seuil_congestion": 0.5,
+  "bilan": {
+    "vehicules_crees": 1320,
+    "vehicules_en_circulation": 284,
+    "vehicules_en_attente": 5,
+    "vehicules_arrives": 1031
+  }
+}

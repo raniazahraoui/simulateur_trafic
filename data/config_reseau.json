@@ -1,0 +1,26 @@
+{
+  "parametres": {
+    "taux_apparition": 22.0,
+    "seed": 42,
+    "densite_max": 15.0,
+    "seuil_congestion": 0.5,
+    "bruit_vitesse": 0.1
+  },
+  "intersections": [
+    {"id": "A", "x": 0.0, "y": 1.5},
+    {"id": "B", "x": 2.0, "y": 1.5},
+    {"id": "C", "x": 5.0, "y": 1.5},
+    {"id": "D", "x": 0.0, "y": 0.0},
+    {"id": "E", "x": 2.0, "y": 0.0},
+    {"id": "F", "x": 5.0, "y": 0.0}
+  ],
+  "routes": [
+    {"id": "AB", "nom": "Avenue Nord 1", "origine": "A", "destination": "B", "longueur": 2.0, "limite_vitesse": 50, "bidirectionnelle": true},
+    {"id": "BC", "nom": "Avenue Nord 2", "origine": "B", "destination": "C", "longueur": 3.0, "limite_vitesse": 70, "bidirectionnelle": true},
+    {"id": "DE", "nom": "Avenue Sud 1", "origine": "D", "destination": "E", "longueur": 2.0, "limite_vitesse": 50, "bidirectionnelle": true},
+    {"id": "EF", "nom": "Avenue Sud 2", "origine": "E", "destination": "F", "longueur": 3.0, "limite_vitesse": 70, "bidirectionnelle": true},
+    {"id": "AD", "nom": "Boulevard Ouest", "origine": "A", "destination": "D", "longueur": 1.5, "limite_vitesse": 50, "bidirectionnelle": true},
+    {"id": "BE", "nom": "Rue Centrale", "origine": "B", "destination": "E", "longueur": 1.5, "limite_vitesse": 30, "bidirectionnelle": true, "densite_max": 8},
+    {"id": "CF", "nom": "Boulevard Est", "origine": "C", "destination": "F", "longueur": 1.5, "limite_vitesse": 50, "bidirectionnelle": true}
+  ]
+}
